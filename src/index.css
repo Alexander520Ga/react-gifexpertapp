@@ -1,0 +1,69 @@
+
+*{
+  font-family:Helvetica, Arial, sans-serif;
+  
+}
+.search{
+  background-color: #F5F5F5;
+}
+body{
+  background: url("https://fondosmil.com/fondo/7252.jpg");
+ padding: 60px;
+  background-size: 100% 100% 100% 100%;
+  
+  
+}
+input {
+  width: 100%;
+  color: gray;
+  font-size: 1.2rem;
+}
+.card{
+  align-content: centre;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  
+  
+}
+.card p{
+  padding: 5px;
+  text-align: center;
+  
+}
+.card img{
+  max-height: 170px;
+  min-height:80px;
+
+}
+.card img:hover{
+  border:2px solid red;
+}
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+}
+#loading{
+  font-family: 'Chewy', cursive;
+  --animate-duration: 3s;
+  color: #00FF00;
+  font-size: 40px;
+}
+
+.GifExpert{
+  font-family: 'Black Ops One', cursive;
+  color: #F5F5F5;
+ 
+
+}
+#title{
+  font-family: 'Nanum Pen Script', cursive;
+  color: #F5F5F5;
+  font-size: 50px;
+}
+
